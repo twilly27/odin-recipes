@@ -1,8 +1,10 @@
 div {
+    background-color: red;
     color: white;
-    background-color: black;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
   }
   
-  p {
-    color: red;
-  }
+
+
