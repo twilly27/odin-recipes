@@ -1,53 +1,20 @@
-div {
-    font-size: 24;
-}
-
 body {
-  text-align: center;
-  font-family: 'Courier New', monospace;
-  margin: 0px auto;
+  padding: 0;
+  margin: 0;
 }
-
+nav {
+  padding: 12px;
+  border-bottom: 1px dotted
+    hsl(0deg 0% 0% / 0.2);
+}
 ul {
-  margin: 5px;
-  display: flex;
-  list-style: none;
-  justify-content: center;
+  list-style-type: none;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
 }
-
-li {
-  border: 2px solid blue;
-  padding: .5em;
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 200px;
-}
-
-.header {
-  padding: 10px;
-  border: 20px solid #9B51E0;
-  margin: 0px 5px;
-  color: black;
-  background-color: #EB5757;
-  text-align: center;
-  font-size: 48px;
-  font-weight: bold;
-  font-family: Georgia, serif;
-}
-
-.minihead {
-  margin: 0px;
-}
-
-.speciallist {
-  background-color: #EB5757;
-  margin-top: 0px;
-  margin: 5px;
-}
-
-.image {
-  background-color: #EB5757;
-  margin: 5px;
-  margin-bottom: 0px;
-  border: 5px solid #EB5757;
+ul a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.875rem;
 }
